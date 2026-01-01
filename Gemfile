@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 
 gem "faraday", "2.13.4"
-gem "faraday-retry", "2.3.2"
+gem "faraday-retry", "2.4.0"
 gem "github-pages", "~> 232", group: :jekyll_plugins
 gem "json", "2.13.2"
 gem "language_server-protocol", "3.17.0.5"
@@ -11,7 +11,7 @@ gem "rubocop", "1.79.2"
 
 group :test do
   gem "fastimage"
-  gem "httparty"
+  gem "httparty", ">= 0.24.0"
   gem "minitest"
   gem "octokit"
   gem "pry", require: false
